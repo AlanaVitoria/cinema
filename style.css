@@ -3,28 +3,44 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-   background-color: rgb(195, 226, 240);
+   background-color: rgb(37, 15, 63);
 }
 
 h1 {
-    color: #333;
+    color: rgb(216, 196, 196);
+}
+
+#movies-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .movie-card {
-    margin: 20px;
+      display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(204, 186, 224);
+    margin: 10px;
     padding: 10px;
-    display: inline-block;
+    width: 300px;
+    height: 500px;
+    border-radius: 12px;
 }
 
 .movie-image {
-    max-width: 200px;
-    max-height: 300px;
+  border-radius: 6px;
+    width: 100%;
+    max-height: 400px;
 }
 
 .movie-title {
+  font-size: 20px;
     font-weight: bold;
 }
 
